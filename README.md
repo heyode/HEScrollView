@@ -23,8 +23,6 @@ view.pageImgs = pageImgs;
  view.pageLightImgs = pageCurrentImgs;
 ```
 ## 效果图
-
- ![image](https://github.com/heyode/HEScrollView/edit/master/myProject.gif)
-
+![image](https://github.com/heyode/HEScrollView/blob/master/myProject.gif)
 ## 致谢 
 感谢MJ大神提供的思路
