@@ -1,0 +1,2 @@
+# HEScrollView
+使用3个UIImageView循环利用实现无限轮播
