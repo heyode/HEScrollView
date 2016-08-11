@@ -4,7 +4,7 @@
 - 只需三行代码配置，就能实现一个基于UIScrollView的无限轮播视图
 
 ## HEScrollView的使用
-### 在控制器中创建HEScrollView
+### 导入HEScrollView.h和HEScrollView.m两个文件到工程，在控制器中创建HEScrollView
 ```
 HEScrollView *view = [[HEScrollView alloc] initWithFrame:self.view.bounds];
 ```
