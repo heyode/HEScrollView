@@ -24,7 +24,7 @@ view.pageImgs = pageImgs;
 ```
 ## 效果图
 
- ![image](http://github.com/heyode/HEScrollView/edit/master/myProject.gif)
+ ![image](https://github.com/heyode/HEScrollView/edit/master/myProject.gif)
 
 ## 致谢 
 感谢MJ大神提供的思路
