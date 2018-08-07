@@ -9,6 +9,7 @@
 #import "HEScrollView.h"
 #define COMMONMARGIN 10
 static int const imageViewCount = 3;
+static int const tagBase = 700;
 #define ANIMATIONTIME 1.25
 @interface HEScrollView()<UIScrollViewDelegate>
 /** scrollView */
@@ -123,7 +124,7 @@ static int const imageViewCount = 3;
             index = 0;
         }
         UIImageView *imgV= self.scrollView.subviews[i];
-        imgV.tag = index;
+        imgV.tag = index + tagBase;
         imgV.image = self.images[index];
         
     }
@@ -140,7 +141,7 @@ static int const imageViewCount = 3;
         int distance = ABS(imageView.frame.origin.x - self.scrollView.contentOffset.x);
         if (distance < minDistance) {
             minDistance = distance;
-           page = imageView.tag;
+           page = imageView.tag - tagBase;
         }
     }
     self.pageControl.currentPage = page;
